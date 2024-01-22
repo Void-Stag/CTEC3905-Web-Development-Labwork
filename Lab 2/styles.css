@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    width: 15vw;
+
+}
+
+nav a{
+    background-color: darkslategrey;
+    color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+    flex-direction: row;
+    transition: background-color 0.7s;
+}
+
+nav a:hover{
+    background-color: cornflowerblue;
+}
+
+header{
+    background-color: cadetblue;
+    overflow: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: cadetblue;
+    overflow: auto;
+    /* width: 85vw; */
+    box-sizing: border-box;
+}

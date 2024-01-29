@@ -1,32 +1,48 @@
+body{
+    margin: 0;
+}
+
 nav{
     display: flex;
-    width: 15vw;
+    flex-direction: column;
+    flex-basis: 15vw;
+    flex-shrink: 0;
 
 }
 
 nav a{
     background-color: darkslategrey;
     color: antiquewhite;
-    padding: 10px;
-    margin: 5px;
-    flex-direction: row;
-    transition: background-color 0.7s;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    transition: background-color 0.5s;
 }
 
 nav a:hover{
     background-color: cornflowerblue;
 }
 
+header, section, main{
+    overflow: auto;
+}
+
+header, section{
+    padding: 0 0 0.5em;
+}
+
 header{
     background-color: cadetblue;
+}
+
+nav, main{
+    box-sizing: border-box;
+}
+
+section{
     overflow: auto;
 }
 
 main{
     display: flex;
     flex-direction: row-reverse;
-    background-color: cadetblue;
-    overflow: auto;
-    /* width: 85vw; */
-    box-sizing: border-box;
 }

@@ -1,0 +1,1 @@
+menuToggler.addEventListener('click', ev => {menu.classlist.toggle('open');});

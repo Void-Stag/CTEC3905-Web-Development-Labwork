@@ -1,1 +1,1 @@
-menuToggler.addEventListener('click', ev => {menu.classlist.toggle('open');});
+menuToggler.addEventListener('click', ev => {menu.classList.toggle('open');});
